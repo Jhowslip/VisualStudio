@@ -14,6 +14,8 @@ namespace WebApi.Models
         public string DESC_PRODUTO { get; set; }
         public double? EST_PRODUTO { get; set; }
         public double? VAL_PRODUTO { get; set; }
+        [MaxLength(144)]
+        public string IMG_PRODUTO { get; set; }
 
 
     }
